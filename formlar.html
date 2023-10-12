@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formlar</title>
+</head>
+<body>
+
+<fieldset>
+
+  <legend>Form Başlığı</legend>
+
+  <form>
+    <input type="text">
+    <br>
+    <input type="email" placeholder="email adresinizi giriniz">
+    <br>
+    <input type="password">
+    <br>
+    <input type="search">
+    <br>
+    <input type="date">
+    <br>
+    <input type="checkbox">
+    <br>
+    <input type="time">
+    <br>
+    <input type="file">
+    <br>
+    <input type="number">
+    <br>
+    <input type="range" min="0" max="100">
+    <br>
+    <input type="color">
+    <br>
+    <input type="radio">
+    <br>
+    <input type="reset">
+    <br>
+    <input type="submit" value="forumu gönder">
+    <input type="button" value="forumu gönder">
+    <br>
+    <select>
+      <option value="turkiye">Türkiye</option>
+      <option value="almanya" disabled>Almanya</option>
+      <option value="isvicre" selected>İsviçre</option>
+    </select>
+  </form>
+</fieldset>
+
+<br>
+<br>
+
+<fieldset>
+  <legend>Kullanıcı giriş formu</legend>
+  <form>
+    <label for="isim"> Adınız soyadınız: </label>
+    <input type="text" id="isim">
+    <br>
+
+    <label for="mail">Email adresiniz: </label>
+    <input type="email" id="mail">
+    <br>
+
+    <label for="pass">Şifreniz: </label>
+    <input type="password" id="pass">
+    <br>
+
+    <label for="pass2">Şifreniz tekrar: </label>
+    <input type="password" id="pass2">
+    <br>
+
+    <label for="kullanici_adi">Kullanıcı adı: </label>
+    <input type="text" id="kullanici_adi">
+    <br>
+
+    <label for="select">Ülke seçiniz: </label>
+    <select id="select">
+      <option value="">Türkiye</option>
+      <option value="">Almanya</option>
+      <option value="">İsviçre</option>
+    </select>
+    
+    <br>
+
+    <label for="">cinsiyet: </label>
+
+    <label for="">Erkek</label>
+    <input type="radio" name="cinsiyet">
+
+    <label for="">Kadın</label>
+    <input type="radio" name="cinsiyet">
+    <br>
+
+    <input type="submit" value="buton form gönder tıkla">
+    <input type="reset" value="Formu sıfırla">
+
+
+  </form>
+</fieldset>
+
+<fieldset>
+  <form>
+    <label for="ad">Adınız soyadınız: </label>
+    <input type="text" id="ad" placeholder="John Doe">
+    <br>
+
+    <label for="mail">Email adresi: </label>
+    <input type="email" id="mail" placeholder="johndoe@gmail.com">
+    <br>
+
+    <label for="password">Şifreniz: </label>
+    <input type="password" id="password">
+    <br>
+
+    <label for="password2">Şifreniz tekrar: </label>
+    <input type="password" id="password2">
+    <br>
+
+    <label for="dogum">Doğum tarihi</label>
+    <input type="date" id="dogum">
+    <br>
+
+    <label for="adres">Adresiniz: </label>
+    <input type="text" id="adres">
+    <br>
+
+    <input type="submit" value="Formu gönder">
+    <br>
+
+    <label for="">Telefon numaranız: </label>
+    <input type="tel" placeholder="+90 (5)">
+  </form>
+</fieldset>
+
+
+
+</body>
+</html>
